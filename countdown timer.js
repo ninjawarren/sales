@@ -10,7 +10,7 @@ function toEasternStandardTime(date) {
 }
 var countDownDate = toEasternStandardTime(new Date("11/20/2023 23:59:59"));
 
-var scriptUrl = "your_script.js?nocache=" + Math.random(); // Replace with the actual URL of your script
+var scriptUrl = "https://raw.githubusercontent.com/ninjawarren/sales/main/countdown%20timer.js?nocache=" + Math.random(); // Replace with the actual URL of your script
 
 var scriptElement = document.createElement("script");
 scriptElement.src = scriptUrl;
